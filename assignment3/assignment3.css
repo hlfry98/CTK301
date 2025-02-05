@@ -1,0 +1,54 @@
+h1 {
+    color: darkgreen;
+    background-color: lightseagreen;
+}
+
+h2 {
+    color: darkorchid;
+    background-color: lightpink;
+}
+
+h3 {
+    color: darkred;
+    background-color: lightcoral;
+}
+
+h4 {
+    color: darkgoldenrod;
+    background-color: lightsalmon;
+}
+
+p {
+    color: darkblue;
+    background-color: lightskyblue;
+}
+
+#list {
+    color: purple;
+    background-color: palevioletred;
+}
+
+.list2 {
+    color: saddlebrown;
+    background-color: burlywood;
+}
+
+#divcolor {
+    background-color: thistle;
+}
+
+.spancolor {
+    color: crimson;
+}
+
+a {
+    color: red;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:hover {
+    color: yellow;
+  }       
