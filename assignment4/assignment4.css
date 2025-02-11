@@ -1,0 +1,61 @@
+h1 {
+    color: orange;
+    font-family: Arial, Helvetica;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color: orange;
+    font-family: Arial, Helvetica;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    color: orange;
+    font-family: Arial, Helvetica;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4 {
+    color: orange;
+    font-family: Arial, Helvetica;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    font-family: Arial, Helvetica;
+}
+
+a {
+    color: red;
+  }
+
+a:visited {
+    color: green;
+  }
+
+a:hover {
+    color: yellow;
+  }       
+
+img {
+    border: 30px solid black;
+    padding: 20px;
+    background-color: yellow;
+}
+
+.middle {
+    text-align: center;
+}
+
+.just {
+    text-align: justify;
+}
+
+body {
+    background-image: url(sky.jpg);
+}
