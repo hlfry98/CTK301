@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Drawing/Painting</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+  <link href="PortfolioDraw.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h1><a href="PortfolioMain.html">BACK TO MAIN PAGE</a></h1>
+		</header>
+		<nav>
+			<ul>
+			  <li><a href="PortfolioDraw.html">DRAWING/PAINTING</a></li>
+			  <li><a href="mockgame.html">GAME DESIGN</a></li>
+			  <li><a href="mock3d.html">3D MODELING/ANIMATION</a></li>
+			</ul>
+			</nav>
+		<main>
+			<h2>DRAWING/PAINTING</h2>
+			<div id="myCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="dog.jpg"></div>
+				<div class="f-carousel__slide"><img src="vase.jpg"></div>
+			</div>
+		<p>
+			Hello, welcome to my portfolio! I'm Hannah Fry studying at Illinois State University for my bachelor’s degree in Game Design. I graduated from Joliet Junior College in the spring of 2024 with my associate’s in applied science and a certificate in Game Design. Enjoy my work!
+		</p>
+		</main>
+		<footer>
+			<a href="PortfolioAbout.html">MORE ABOUT ME</a>
+		</footer>
+	</div>
+	<script>
+		
+		const container = document.getElementById("myCarousel");
+	  const options = { infinite: true };
+	  
+	  new Carousel(container, options);
+	  
+		</script>
+</body>
+</html>
