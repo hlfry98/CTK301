@@ -1,0 +1,177 @@
+body {
+    background-image: url(background.jpg);
+  }
+  
+  header {
+    grid-column: span 12;
+    text-align: center;
+  }
+  
+  header a {
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 500px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+  box-shadow: -16px -4px 37px 0px #000000;
+  text-shadow: 0px 2px 2px white;
+  }
+  
+  header a:hover {
+    background-image: linear-gradient(90deg, rgba(120,34,193,1) 0%, rgba(2,52,70,1) 46%, rgba(1,83,17,1) 100%);
+    text-decoration: none;
+  }
+  
+   img {
+    grid-column: span 8;
+    width: 400px;
+    padding-left: 50px;
+    border: 2px solid seagreen;
+    background-color: seagreen;
+    border-radius: 500px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+  box-shadow: -16px -4px 37px 0px #000000;
+  }
+  
+  h1 {
+    padding: 10px;
+  }
+  
+  h1 a {
+    color: black;
+    font-family: "Sedgwick Ave Display", cursive;
+    background-image: linear-gradient(90deg, rgba(174,134,208,1) 0%, rgba(9,91,121,1) 46%, rgba(19,190,51,1) 100%);
+  }
+  
+  h2 {
+    font-family: "Sedgwick Ave Display", cursive;
+    text-align: center;
+  }
+  
+  h3 {
+    text-decoration: underline;
+    font-family: "Sedgwick Ave Display", cursive;
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  nav {
+    grid-column: span 12;
+    font-family: "Lacquer", system-ui;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    background-image: linear-gradient(90deg, rgba(174,134,208,1) 0%, rgba(9,91,121,1) 46%, rgba(19,190,51,1) 100%);
+    margin-top: 0;
+    height: 40px;
+    border-radius: 500px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+    box-shadow: -16px -4px 37px 0px #000000;
+  }
+  
+  nav li a  {
+    font-family: "Lacquer", system-ui;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  nav li a:hover {
+    background-image: linear-gradient(90deg, rgba(120,34,193,1) 0%, rgba(2,52,70,1) 46%, rgba(1,83,17,1) 100%);
+    text-decoration: none;
+    border-radius: 500px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+    box-shadow: -16px -4px 37px 0px #000000;
+  }
+  
+  main {
+    font-family: "Lacquer", system-ui;
+    grid-column: span 12;
+    display: inline-block;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    background-color: white;
+    margin: 24px;
+    border: 2px solid seagreen;
+    background-color: lavenderblush;
+    border-radius: 150px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+  box-shadow: -16px -4px 37px 0px #000000;
+  text-shadow: 0px 2px 2px white;
+  }
+  
+  main img {
+    grid-column: span 8;
+    float: left;
+    padding: 20px;
+    width: 322px;
+    height: 300px;
+    border: 2px solid seagreen;
+    border-radius: 50px;
+  }
+
+  iframe {
+    margin-left: 150px;
+    border: 2px solid seagreen;
+    border-radius: 25px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+  box-shadow: -16px -4px 37px 0px #000000;
+  }
+  
+  p {
+    margin: 50px;
+    text-align: center;
+    text-align: justify;
+    padding-left: 100px;
+    width: 800px;
+  }
+  
+  #wrapper {
+    margin: 50px auto;
+    width: 1150px;
+    border: 5px solid black;
+    padding: 24px;
+    background-color: thistle;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    border-radius: 150px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+  box-shadow: -16px -4px 37px 0px #000000;
+  }
+  
+  footer {
+    text-align: center;
+    font-family: "Lacquer", system-ui;
+    grid-column: span 12;
+    background-image: linear-gradient(90deg, rgba(174,134,208,1) 0%, rgba(9,91,121,1) 46%, rgba(19,190,51,1) 100%);
+    margin-left: 230px;
+    width: 700px;
+    border-radius: 150px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+  box-shadow: -16px -4px 37px 0px #000000;
+  }
+  
+  footer a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+  }
+  
+  footer a:hover {
+    background-image: linear-gradient(90deg, rgba(120,34,193,1) 0%, rgba(2,52,70,1) 46%, rgba(1,83,17,1) 100%);
+    border-radius: 150px;
+    -webkit-box-shadow: -16px -4px 37px 0px #000000; 
+  box-shadow: -16px -4px 37px 0px #000000;
+  }
